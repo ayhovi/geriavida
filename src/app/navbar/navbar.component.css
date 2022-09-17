@@ -6,14 +6,31 @@
   background-color: #F2CC85;
   padding: .7rem;
 }
-.cont-g .letra{
+.letra{
   margin: 0 5px;
   color: #a71117;
   font-family: 'Sorts Mill Goudy', serif;
   text-align: center;
   text-transform: uppercase;
 }
-.cont-g .letra2{
+.letra::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #A71E1C;
+  transition: .5s;
+}
+.letra:hover{
+  color: #123B40;
+  font-weight: 600;
+}
+.letra:hover::after{
+  width: 100%;
+}
+.letra2{
   border-radius: 3px;
   background-color: #123B40;
   color: white;
@@ -26,7 +43,6 @@
 }
 .cont li a {
   background-color: #fcdca0 ;
-
 }
 
 
