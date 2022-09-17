@@ -89,6 +89,17 @@ li{
   text-align: center;
   margin: auto;
 }
+.caja-2-imagene {
+  text-align: center;
+  margin: auto;
+}
+.caja-2-imagen img{
+
+  width: 300px;
+}
+.caja-2-imagene img{
+  height: 400px;
+}
 .caja-2-texto-left{
   padding-right: 30px;
   margin: auto;
@@ -116,7 +127,7 @@ li{
   margin: auto;
 }
 .borde img{
-  border: solid 2px #B47D1C;
+  border: solid 4px #A68053;
   border-radius: 25px;
 }
 @media (max-width: 1370px) {
@@ -142,13 +153,18 @@ li{
     margin:auto;
   }
   .caja-2-imagen {
-    text-align: center;
     margin: auto;
   }
   .caja-3-imagen1{
     display: block;
     text-align: center;
   }
+  .caja-2-texto-right p{
+    padding-right: 30px;
+    margin: auto;
+  }
+  .color{
+    color: #123B40;}
 }
 @media (max-width: 920px) {
   h1{
