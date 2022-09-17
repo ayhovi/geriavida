@@ -7,20 +7,21 @@ h1{
   line-height: 90px;
   text-align: center;
   color: #808080;
+  margin-bottom: 10px;
 }
 h2{
   font-family: 'Colonna MT', sans-serif;
   font-size: 48px;
   font-weight: 450;
   color: #A71E1C;
-  text-align: center;
-  line-height: 60px;
+  text-align: left;
+  line-height: 40px;
 }
 h3{
   font-size: 36px;
   font-family: 'Goudy Old Style';
   color: #A71E1C;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 h4{
   font-family: 'Gotu';
@@ -113,6 +114,10 @@ li{
 .img_1{
   text-align: center;
   margin: auto;
+}
+.borde img{
+  border: solid 2px #B47D1C;
+  border-radius: 25px;
 }
 @media (max-width: 1370px) {
   .img_1{
