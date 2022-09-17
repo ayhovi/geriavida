@@ -1,0 +1,131 @@
+
+*{
+  margin: 0;
+  padding: 	0;
+  box-sizing: border-box;
+}
+.cont_3{
+  position: fixed;
+  top: 86%;
+  bottom: 0;
+  right: 0;
+  left: 94%;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color:#B47D1C ;
+  margin: auto;
+  border-radius: 50%;
+  animation: pulse-anim 1.5s linear infinite;
+  z-index: 1;
+  animation-name: pulse-anim;
+}
+.subir img{
+  width: 60px;
+}
+h1{
+
+  font-family: 'Colonna MT', sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  color: #808080;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.medio{
+  text-align: center;
+}
+iframe{
+  width: 100%;
+}
+.correo{
+  display: flex;
+}
+.telefono{
+  display: flex;
+}
+.whatsapp{
+  display: flex;
+}
+.web{
+  display: flex;
+}
+.siguenos{
+  display: flex;
+}
+p{
+  padding: 13px 0px 10px 30px
+}
+.iconos_c{
+ text-align: center;
+}
+.contenedor{
+  padding: 50px 10px 10px 150px
+}
+
+@media (max-width:920px) {
+  h1{
+    line-height: 30px;
+    font-size: 40px;
+  }
+  p{
+    font-size:  20px;
+    }
+  .contenedor{
+    padding: 0px
+  }
+  .correo{
+  display: block;
+  }
+  .correo div{
+    text-align: center;
+  }
+  .telefono{
+  display: block;
+  }
+  .telefono div{
+    text-align: center;
+  }
+  .whatsapp{
+  display: block;
+  }
+  .whatsapp div{
+    text-align: center;
+  }
+  .web{
+  display: block;
+  }
+  .web div{
+    text-align: center;
+  }
+  .siguenos{
+  display: block;
+  }
+  .siguenos div{
+    text-align: center;
+  }
+  .iconos_c{
+    padding:0px;
+    text-align: center;
+  }
+  .cont_3{
+    top: 91%;
+    bottom: 0;
+    right: 0;
+    left: 87%;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+  }
+  .subir img{
+    width: 40px;
+  }
+
+
+}

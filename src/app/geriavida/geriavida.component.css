@@ -1,0 +1,146 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.cont_3{
+  position: fixed;
+  top: 86%;
+  bottom: 0;
+  right: 0;
+  left: 94%;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color:#B47D1C ;
+  margin: auto;
+  border-radius: 50%;
+  animation: pulse-anim 1.5s linear infinite;
+  z-index: 1;
+  animation-name: pulse-anim;
+}
+.subir img{
+  width: 60px;
+}
+
+h1{
+
+  font-family: 'Colonna MT', sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  color: #808080;
+}
+.contenedor{
+  display: flex;
+}
+.texto{
+  width: 100%;
+  padding: 0% 3% 0% 3%;
+}
+.texto p{
+  font-family: 'Goudy Old Style', serif!important;
+  font-size: calc(14px + (32 - 14) * ((100vw - 300px) / (1920 - 320)));
+  font-weight: 400;
+  line-height: 120%;
+  text-align: justify;
+  color: #123B40;
+  margin-bottom: clamp(0.2%, 5vw, 4%);
+  width: 100%;
+}
+.imagen{
+  display:flex;
+  width: 70vw;
+  max-width: 1920px;
+  min-width: 30px;
+  margin: auto;
+  padding: 0% 3% 3% 3%;
+}
+.imagen img{
+  width: 100%;
+  border: 4px solid #A68053;
+  border-radius: 25px;
+}
+.imagenes{
+  display:flex;
+  width: 80vw;
+  max-width: 1920px;
+  min-width: 30px;
+  padding: 0% 2% 2% 2%;
+  align-items: center;
+  justify-content: center;
+}
+.imagenes div img{
+  width: 300px;
+  border: 0.2vw solid #A68053;
+  border-radius: 2vw;
+}
+.contenedor_reutilizables{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows:minmax(20px, auto);
+  gap: 30px;
+  padding: 3%;
+}
+.grid-reutilizables_item{
+  text-align: center;
+}
+.grid-reutilizables_item img{
+  transition: all 0.8s ease;
+  filter:brightness(100%);
+  width: 80%;
+  border: 3px solid #A68053;
+  border-radius: 25px;
+}
+.grid-reutilizables_item img:hover{
+  transition: all 0.6s ease;
+  filter:brightness(110%);
+}
+
+@media (max-width:1370px) {
+  .contenedor{
+    display: block;
+  }
+  .imagenes div img{
+    width: 170px;
+  }
+  .imagenes div{
+    margin: 10px 10px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width:920px) {
+  h1{
+    line-height: 30px;
+    font-size: 40px;
+  }
+  .contenedor{
+    display: block;
+  }
+  .imagenes{
+    display: block;
+  }
+
+  .imagenes div{
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .imagenes  div img{
+    width: 250px;
+  }
+  .contenedor_reutilizables{
+    display: block;
+    grid-auto-rows:minmax(20px, auto);
+    gap: 30px;
+    padding: 3%;
+  }
+  .contenedor_reutilizables div{
+    margin: 20px 0px;
+    text-align: center;
+  }
+  .grid-reutilizables_item img{
+    width: 250px;
+  }
+}

@@ -1,0 +1,121 @@
+<nav class="navbar navbar-expand-xl">
+  <div class="container-fluid">
+    <a class="navbar-brand " href="#"><img src="../assets/images/header/Logo_Echado.svg" alt="GERIAVIDA" width="140" height="24"></a>
+    <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+      </ul>
+      <!-- contenido del menu -->
+      <div class=" cont-g" >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle letra" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              geriavida
+            </a>
+            <ul class="dropdown-menu cont">
+              <li><a class="dropdown-item" routerLink="geriavida">Introduccion</a></li>
+              <li><a class="dropdown-item" routerLink="seguridad">Seguridad de nuestras instalaciones</a></li>
+              <li><a class="dropdown-item" routerLink="protocolos">Protocolos de Bioseguridad</a></li>
+              <li><a class="dropdown-item" routerLink="visitas">visitas</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link letra" aria-current="page" routerLink="proposito">VALORES Y PROPÓSITO</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link letra" routerLink="servicios">SERVICIOS</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle letra" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ENFERMEDADES
+            </a>
+            <ul class="dropdown-menu cont">
+              <li><a class="dropdown-item" routerLink="geriavida">Introduccion</a></li>
+              <li><a class="dropdown-item" routerLink="seguridad">Seguridad de nuestras instalaciones</a></li>
+              <li><a class="dropdown-item" routerLink="protocolos">Protocolos de Bioseguridad</a></li>
+              <li><a class="dropdown-item" routerLink="visitas">visitas</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link letra"routerLink="contacto">CONTACTO</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle letra" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Blog
+            </a>
+            <ul class="dropdown-menu cont">
+              <li><a class="dropdown-item" href="../../assets/pdf/Control y manejo del estres del operador y cuidador.pdf" target="_blank">Control y manejo del estres</a></li>
+              <li><a class="dropdown-item" routerLink="seguridad">Seguridad de nuestras instalaciones</a></li>
+              <li><a class="dropdown-item" routerLink="protocolos">Protocolos de Bioseguridad</a></li>
+              <li><a class="dropdown-item" routerLink="visitas">visitas</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link letra2"href="../../assets/pdf/Brochure.pdf" target="_blank">BROCHURE</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- <mat-toolbar color="primary" class="color">
+  <mat-toolbar-row>
+    <a href="" mat-menu-item routerLink=""><img class="logo" src="../assets/logo.svg" alt=""></a>
+
+    <div class="spacer"></div>
+    <a (click)=" setActive() " class="boton_menu"><img  src="../assets/images/header/Menu.svg" alt=""></a>
+    <div class="opciones"
+    [ngClass]="{ 'opciones_activo' : active }">
+        <button class="none" mat-button [matMenuTriggerFor]="afterMenu" href="#">GERIAVIDA</button>
+        <mat-menu #afterMenu="matMenu" xPosition="after" >
+          <button mat-menu-item routerLink="geriavida">Introduccion</button>
+          <button mat-menu-item routerLink="seguridad">Seguridad de nuestras instalaciones</button>
+          <button mat-menu-item routerLink="protocolos">Protocolos de Bioseguridad</button>
+          <button mat-menu-item routerLink="visitas">visitas</button>
+        </mat-menu>
+      <a class="none" mat-button routerLink="proposito">VALORES Y PROPÓSITOS</a>
+      <a class="none" mat-button routerLink="servicios">SERVICIOS</a>
+
+      <button class="none" mat-button [matMenuTriggerFor]="enfermedades_Menu" href="#">ENFERMEDADES</button>
+       <mat-menu  class="cont_b" #enfermedades_Menu="matMenu" xPosition="after">
+        <button mat-menu-item routerLink="enfermedades">Enfermedades</button>
+        <button mat-menu-item routerLink="alzheimer">Alzheimer</button>
+        <button mat-menu-item routerLink="demenciasenil">Demencia Senil</button>
+        <button mat-menu-item routerLink="parkinson">Parkinson</button>
+        <button mat-menu-item routerLink="diabetesmellitus">Diabetes Mellitus</button>
+        <button mat-menu-item routerLink="hipertensionarterial">Hipertensión arterial</button>
+        <button mat-menu-item routerLink="acv">ACV (Accidente Cerebrovascular)</button>
+        <button mat-menu-item routerLink="artrosis">Artrosis</button>
+        <button mat-menu-item routerLink="artritis">Artritis</button>
+        <button mat-menu-item routerLink="osteoporosis">Osteoporosis</button>
+      </mat-menu>
+
+      <a class="none" mat-button routerLink="galeria">GALERIA</a>
+      <a class="none" mat-button routerLink="contacto">CONTACTO</a>
+
+        <button class="none" mat-button [matMenuTriggerFor]="blog_Menu" href="#">BLOG</button>
+          <mat-menu #blog_Menu="matMenu" xPosition="after">
+            <a mat-menu-item href="../../assets/pdf/Control y manejo del estres del operador y cuidador.pdf" target="_blank">Control y manejo del estres</a>
+            <a mat-menu-item href="../../assets/pdf/Filosofia de envejecimiento.pdf" target="_blank">Filosofia de envejecimiento</a>
+            <a mat-menu-item href="../../assets/pdf/Nutricion para personas Adultas Mayores.pdf" target="_blank">Nutricion para personas Adultas</a>
+            <a mat-menu-item href="../../assets/pdf/Dieta para la Hipertensión arterial.pdf" target="_blank">Dieta para la Hipertensión arterial</a>
+          </mat-menu>
+
+        <a class="none_b" mat-raised-button href="../../assets/pdf/Brochure.pdf" target="_blank">BROCHURE</a>
+
+
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
+ -->

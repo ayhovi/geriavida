@@ -1,0 +1,94 @@
+*{
+  font-family: 'Sorts Mill Goudy', serif;
+
+}
+h1{
+
+  font-family: 'Colonna MT', sans-serif;
+  font-size: 80px;
+  line-height: 90px;
+  text-align: center;
+  color: #808080;
+}
+h2{
+
+  font-family: 'Colonna MT', sans-serif;
+  font-size: 48px;
+  font-weight: 450;
+  color: #A71E1C;
+  text-align: center;
+  line-height: 60px;
+
+}
+h3{
+  font-size: 36px;
+  font-family: 'Goudy Old Style';
+  color: #A71E1C;
+  margin-bottom: 20px;
+}
+h4{
+  font-family: 'Gotu';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  text-decoration-line:underline;
+  color: #A71E1C;
+
+}
+p{
+  font-family: 'Goudy Old Style';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: justify;
+color: #123B40;
+}
+
+.img{
+  text-align: center;
+  margin: 20px 0px;
+
+}
+.cont_3{
+  position: fixed;
+  top: 86%;
+  bottom: 0;
+  right: 0;
+  left: 94%;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color:#B47D1C ;
+  margin: auto;
+  border-radius: 50%;
+  animation: pulse-anim 1.5s linear infinite;
+  z-index: 1;
+  animation-name: pulse-anim;
+}
+.subir img{
+  width: 60px;
+}
+
+
+@media (max-width: 920px) {
+  h1{
+    line-height: 30px;
+    font-size: 40px;
+  }
+  h2{
+    line-height: 30px;
+    font-size: 30px;
+
+  }
+  h3{
+    font-size: 24px;
+  }
+  h4{
+    font-size: 20px;
+
+  }
+  p{
+  font-size:  20px;
+  }
+}

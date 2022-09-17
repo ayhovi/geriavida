@@ -1,0 +1,119 @@
+
+/* You can add global styles to this file, and also import other style files */
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  background-image: url(assets/fondo_2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border: 0.5rem solid transparent;
+/*   -moz-border-image:url("./assets/marcoxl.svg") 30 30 stretch;
+  -webkit-border-image:url("./assets/marcoxl.svg") 30 30 stretch;
+  -o-border-image:url("./assets/marcoxl.svg") 30 30 stretch;
+  border-image:url("./assets/marcoxl.svg") 30 30 fill; */
+
+}
+.marco1{
+  position: fixed;
+  top: 86%;
+  bottom: 0;
+  right: 0;
+  left: 87%;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color:#B47D1C ;
+  margin: auto;
+  border-radius: 50%;
+  /* animation: pulse-anim 1.5s linear infinite; */
+  z-index: 1;
+  animation-name: pulse-anim;
+}
+.marco1 img{
+  width: 60px;
+}
+.marco1{
+  position: fixed;
+  top: 86%;
+  bottom: 0;
+  right: 0;
+  left: 87%;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color:#B47D1C ;
+  margin: auto;
+  border-radius: 50%;
+  /* animation: pulse-anim 1.5s linear infinite; */
+  z-index: 1;
+  animation-name: pulse-anim;
+}
+.marco1{
+  position: fixed;
+  top: 86%;
+  bottom: 0;
+  right: 0;
+  left: 87%;
+  text-align: center;
+  height: 60px;
+  width: 60px;
+  background-color:#B47D1C ;
+  margin: auto;
+  border-radius: 50%;
+  /* animation: pulse-anim 1.5s linear infinite; */
+
+}
+.marco1 img{
+  width: 60px;
+}
+.subirm1 img{
+  width: 60px;
+}
+h1,h2,h3,h4,h5,p,button,a{
+  font-family: 'Sorts Mill Goudy', serif;
+}
+h1{
+  font-size: 6rem;
+  color: #a71117;
+}
+h2{
+  font-weight: 400;
+  font-size: 2.9em;
+}
+h3{
+  font-size: 2rem;
+}
+h4{
+  font-size: 1.5rem;
+}
+h5{
+  font-size: 1rem;
+}
+p{
+  font-weight: 400;
+  font-size: 1.6em;
+}
+
+
+/*Scroll*/
+body::-webkit-scrollbar{
+  width: 7px;
+  background:#c7c6c4;
+}
+body::-webkit-scrollbar-thumb{
+  background:#A68053;
+  border-radius: .3rem;
+}
+
+@media (max-width:920px) {
+  body{
+
+  min-height: 10vh;
+  border-image:none;
+  }
+
+}
