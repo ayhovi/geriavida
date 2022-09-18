@@ -1,190 +1,191 @@
-.testimoniales p{
+.testimoniales p {
   text-align: center;
-  font: 400 3em/2.3rem  'Pinyon Script', cursive!important;
+  font: 400 3em/2.3rem 'Pinyon Script', cursive !important;
   padding: 0 7rem;
   margin-bottom: 0px;
 }
-.centarimagen{
+
+.centarimagen {
   align-items: center;
   width: 100vh;
 }
-.icono{
+
+.icono {
   text-align: right;
 }
-.icono img{
+
+.icono img {
   align-items: center;
   width: 14rem;
   justify-content: center;
-  }
-  .footercoreo h3{
-    font-family: 'Sorts Mill Goudy', serif;
-    font-weight: 200;
-    font-size: 1.2rem;
-    color: #002035;
-    margin: 0;
-  }
+}
 
-  .barra {
-    padding-top: .3rem;
-    margin-top: 20px;
+.footercoreo h3 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: #002035;
+  margin: 0;
+}
+
+.barra {
+  padding-top: .3rem;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+.iconosF{
+  text-align: center;
+  padding: 10px;
+}
+
+@media(min-width: 1000px) {
+  .footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10rem;
   }
-
-
-
-@media(min-width: 1000px){
-    .footer{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .footer .blog{
-        flex-basis: 20%;
-    }
-    .footer .testimoniales{
-        flex-basis: calc(90% - 8rem);
-
-
-    }
-
-  .flecha{
+  .footer .blog {
+    flex-basis: 20%;
+  }
+  .footer .testimoniales {
+    flex-basis: calc(90% - 8rem);
+  }
+  .flecha {
     text-align: center;
   }
-  .footercond{
-
-  }
-  .footercond h2{
+  .footercond h2 {
     font-family: 'Sorts Mill Goudy', serif;
     color: #a71117;
     font-weight: 900;
     margin: 0;
-
   }
-  .footercond h2 span{
+  .footercond h2 span {
     color: #123B40;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
   }
-
-
-  .footercoreo{
+  .footercoreo {
     text-align: center;
   }
-
-  .copi{
+  .copi {
     text-align: center;
   }
-  .copi h3{
+  .copi h3 {
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 200;
     font-size: 1rem;
     color: rgb(114, 114, 116);
   }
-  .iconosF img{
+  .iconosF img {
     width: 5rem;
     padding: .4rem;
   }
-  .direccion{
+  .direccion {
     text-align: center;
   }
-  .direccion h2{
+  .direccion h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 500;
+    color: #123B40;
+  }
+}
+
+
+@media(max-width:1360px) {
+  .flecha img {
+    width: 350px;
+  }
+
+  .footer {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer .blog {
+    flex-basis: 20%;
+  }
+
+  .footer .testimoniales {
+    flex-basis: calc(90% - 8rem);
+  }
+
+  .flecha {
+    text-align: center;
+  }
+
+  .footercond h2 {
+    font-family: 'Sorts Mill Goudy', serif;
+    color: #a71117;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .footercond h2 span {
+    color: #123B40;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+  }
+
+  .barra {
+    padding-top: .3rem;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+  }
+
+  .footercoreo {
+    text-align: center;
+  }
+
+  .copi {
+    text-align: center;
+  }
+
+  .copi h3 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: 200;
+    font-size: 1rem;
+    color: rgb(114, 114, 116);
+  }
+
+  .iconosF img {
+    width: 5rem;
+    padding: .4rem;
+  }
+
+  .direccion {
+    text-align: center;
+  }
+
+  .direccion h2 {
     font-family: 'Sorts Mill Goudy', serif;
     font-weight: 500;
     color: #123B40;
 
   }
 
-
-}
-
-
-@media(max-width:1360px) {
-  .flecha img{
-      width: 350px;
+  .testimoniales p {
+    text-align: center;
+    font: 400 3em/2.3rem 'Pinyon Script', cursive !important;
+    padding: 0 2rem;
+    margin-bottom: 0px;
   }
-  .footer{
-    display: block  ;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer .blog{
-    flex-basis: 20%;
-}
-.footer .testimoniales{
-    flex-basis: calc(90% - 8rem);
 
-}
+  .icono {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-.flecha{
-text-align: center;
-}
-.footercond{
+  .iconosF {
+    text-align: center;
+  }
 
-}
-.footercond h2{
-font-family: 'Sorts Mill Goudy', serif;
-color: #a71117;
-font-weight: 500;
-margin: 0;
-}
-.footercond h2 span{
-color: #123B40;
-font-family: 'Times New Roman', Times, serif;
-font-weight: 500;
-}
-
-.barra {
-padding-top: .3rem;
-display: block;
-justify-content: space-between;
-align-items: center;
-padding: 0 4rem;
-}
-.footercoreo{
-text-align: center;
-}
-
-.copi{
-text-align: center;
-}
-.copi h3{
-font-family: 'Sorts Mill Goudy', serif;
-font-weight: 200;
-font-size: 1rem;
-color: rgb(114, 114, 116);
-}
-.iconosF img{
-width: 5rem;
-padding: .4rem;
-}
-.direccion{
-  text-align:center;
-}
-.direccion h2{
-font-family: 'Sorts Mill Goudy', serif;
-font-weight: 500;
-color: #123B40;
-
-}
-.testimoniales p{
-  text-align: center;
-  font: 400 3em/2.3rem  'Pinyon Script', cursive!important;
-  padding: 0 2rem;
-  margin-bottom: 0px;
-}
-.icono {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.iconosF{
-  text-align: center;
-}
-.footercond {
-  text-align: center;
-
-}
-
+  .footercond {
+    text-align: center;
+  }
 }
