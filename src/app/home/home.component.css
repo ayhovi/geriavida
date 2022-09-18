@@ -8,7 +8,9 @@ h1{
   text-align: center;
   color: #808080;
 }
-
+li{
+  color: #123B40;
+}
 h2{
   font-size: 25px;
   font-family: 'Goudy Old Style';
@@ -201,6 +203,7 @@ li{
     li{
       font-size: 20px;
       width: 100%;
+      color: #123B40;
     }
     ul{
       width:100%;
