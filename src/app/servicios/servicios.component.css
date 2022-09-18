@@ -130,6 +130,7 @@ li{
   border: solid 4px #A68053;
   border-radius: 25px;
 }
+
 @media (max-width: 1370px) {
   .img_1{
     text-align: center;
