@@ -18,11 +18,9 @@ h3{
 }
 
 ul{
-  list-style-image:url(../../assets/Vector.svg);
   width: 100%;
   padding: 3% 3% 3% 6%;
   margin: 0 auto;
-
 }
 li{
   font-family: 'Goudy Old Style', serif!important;
@@ -110,5 +108,4 @@ li{
   .grid-reutilizables_item img{
     width: 250px;
   }
-
 }
