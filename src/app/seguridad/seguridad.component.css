@@ -22,7 +22,6 @@ ul p{
   margin: 0 auto;
   line-height: 130%;
 }
-
 ul{
   width: 100%;
   padding: 3% 3% 3% 6%;
@@ -112,10 +111,6 @@ li{
   z-index: 1;
   animation-name: pulse-anim;
 }
-.subir img{
-  width: 60px;
-}
-
 
 @media (max-width:920px) {
   h2{
