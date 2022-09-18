@@ -46,6 +46,8 @@
 }
 
 
+
+
 .cont{
 border: none;
 }
@@ -53,6 +55,12 @@ border: none;
   text-align: center;
   color: #a71117;
 }
+
+.cont-g .cont li a:hover{
+  color: #123B40;
+  font-weight: 600;
+}
+
 .menu{
   border:none;
 }
