@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CrudService } from '../servicio/crud.service';
 
 @Component({
   selector: 'app-artritis',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArtritisComponent implements OnInit {
 
-  constructor() { }
+  Enfermedades9:any;
+
+  constructor(
+    private crudService:CrudService
+  ) { }
 
   ngOnInit(): void {
+    this.crudService.ObtenerEnfermedades9().subscribe(respuesta=>{
+      console.log( respuesta );
+      this.Enfermedades9 =respuesta;
+    });
   }
 
 }
+

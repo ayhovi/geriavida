@@ -1,3 +1,17 @@
+<div *ngFor="let enfermedades of Enfermedades2;let iControl=index">
+  <div>
+      <h1 >
+          {{enfermedades.nam}}
+      </h1>
+      <p>
+          {{enfermedades.content}}
+      </p>
+
+      <img src="{{enfermedades.urlimg}}" alt="">
+
+  </div>
+</div>
+<!--
 <div class="contenedor_principal">
     <div>
         <h1>DEMENCIA SENIL</h1>
@@ -373,3 +387,4 @@
         <img src="../../assets/images/demenciasenil/14-Deemencia  Estimulaciones cognitivas.jpg" alt="">
     </div>
 </div>
+-->

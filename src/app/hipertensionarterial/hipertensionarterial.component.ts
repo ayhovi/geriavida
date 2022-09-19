@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CrudService } from '../servicio/crud.service';
 
 @Component({
   selector: 'app-hipertensionarterial',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HipertensionarterialComponent implements OnInit {
 
-  constructor() { }
+  Enfermedades6:any;
+
+  constructor(
+    private crudService:CrudService
+  ) { }
 
   ngOnInit(): void {
+    this.crudService.ObtenerEnfermedades6().subscribe(respuesta=>{
+      console.log( respuesta );
+      this.Enfermedades6 =respuesta;
+    });
   }
 
 }

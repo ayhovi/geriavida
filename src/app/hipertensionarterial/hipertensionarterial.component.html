@@ -1,3 +1,17 @@
+<div *ngFor="let enfermedades of Enfermedades6;let iControl=index">
+  <div class="contenedor_principal">
+      <h1 >
+          {{enfermedades.nam}}
+      </h1>
+      <p>
+          {{enfermedades.content}}
+      </p>
+
+      <img src="{{enfermedades.urlimg}}" alt="">
+
+  </div>
+</div>
+
 <div class="contenedor_principal">
     <h1>HIPERTESIÓN ARTERIAL</h1>
     <p>La presión arterial alta (hipertensión) es una afección frecuente en la que la fuerza que ejerce la sangre contra las paredes de tus arterias con el transcurso del tiempo es lo suficientemente alta como para poder causarte problemas de salud, como una enfermedad cardíaca.</p>
