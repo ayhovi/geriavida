@@ -1,4 +1,4 @@
-.cont_3{
+/* .cont_3{
   position: fixed;
   top: 86%;
   bottom: 0;
@@ -16,7 +16,7 @@
 }
 .subir img{
   width: 60px;
-}
+} */
 
 /* {
 	padding: 0;
@@ -191,6 +191,35 @@ p{
   justify-content: center;
   padding: 10px;
 }
+/* codigo del modal */
+.modal-title{
+  font: 400 1.5em/2.3rem    'Sorts Mill Goudy', serif;
+  color:white;
+}
+.modal-content{
+  background-color: transparent;
+  border: none;
+}
+.modal-header{
+  padding: 0 30px;
+  border-bottom: none;
+}
+.modal-body{
+  margin: auto;
+}
+.modal-footer{
+  border-top: none;
+}
+.modal-body img{
+  width: 90%;
+}
+.btn-close{
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
 .container .contenedorGaleria .galeria{
   height: 250px;
   width: 350px;
@@ -280,5 +309,7 @@ p{
   }
   .flecha img{
     width: 250px;
+  }
+  .modal-body img{
   }
 }
