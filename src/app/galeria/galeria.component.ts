@@ -1,4 +1,6 @@
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { CrudService } from '../servicio/crud.service';
 
 @Component({
   selector: 'app-galeria',
@@ -7,10 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GaleriaComponent implements OnInit {
 
-  constructor() { }
+  Galeria:any;
+
+  constructor(
+    private crudService:CrudService
+  ) { }
 
   ngOnInit(): void {
+    this.crudService.ObtenerGaleria().subscribe(respuesta=>{
+      console.log( respuesta );
+      this.Galeria =respuesta;
+    });
   }
 
 }
-

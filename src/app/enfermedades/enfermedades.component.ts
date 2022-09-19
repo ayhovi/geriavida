@@ -1,4 +1,6 @@
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { CrudService } from '../servicio/crud.service';
 
 @Component({
   selector: 'app-enfermedades',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EnfermedadesComponent implements OnInit {
 
-  constructor() { }
+  Enfermedades:any;
+
+  constructor(
+    private crudService:CrudService
+  ) { }
 
   ngOnInit(): void {
+    this.crudService.ObtenerEnfermedades().subscribe(respuesta=>{
+      console.log( respuesta );
+      this.Enfermedades =respuesta;
+    });
   }
 
 }

@@ -1,34 +1,13 @@
-<div class="contenedor_principal">
-    <h1>
-        ENFERMEDADES
-    </h1>
-    <p>
-        La salud del adulto mayor se debe cuidar con mucha atención. Con el paso de los años, las personas mayores se vuelven más vulnerables y experimentan cambios en su metabolismo. La piel pierde elasticidad, los huesos se vuelven más frágiles y el funcionamiento cognitivo puede verse afectado. Aparecen enfermedades, trastornos y/o patologías que afectan la calidad de vida.
-    </p>
-    <p>
-        Los adultos mayores son un grupo de riesgo ante la aparición de ciertas enfermedades geriátricas crónicas relacionadas con la edad. Por ello, cuando ingresa un adulto mayor a nuestra residencia geriátrica GERIAVIDA. debemos conocer todo lo que haga referencia a las necesidades y enfermedades asociadas a las personas mayores. Esto es esencial para garantizar un servicio óptimo y de calidad.
-    </p>
-    <h2>
-        ATENDEMOS A PACIENTES CON ENFERMEDADES:
-    </h2>
-</div>
-<div class="dos_imagenes">
-    <ul class="lista_3 viñeta">
-        <li>Demencia senil</li>
-        <li>Parkinson</li>
-        <li>Alzheimer</li>
-        <li>ACV ( Accidente Cerebrovascular )</li>
-        <li>Diabetes</li>
-        <li>Fibrosis Pulmonar</li>
-        <li>Artritis</li>
-        <li>Artrosis</li>
-        <li>Osteoporosis</li>
-        <li>Hipertencion Arterial</li>
-        <li>Enfermedades Oncológicas</li>
-        <li>Postración Permanente</li>
-        <li>Entre Otras Enfermedades</li>
-    </ul>
-    <div class="centrar_imagen">
-        <img src="../../assets/images/enfermedades/Foto del word - Enfermedades 4.1.png" alt="">
+<div *ngFor="let enfermedades of Enfermedades;let iControl=index">
+    <div>
+        <h1 >
+            {{enfermedades.nam}}
+        </h1>
+        <p>
+            {{enfermedades.content}}
+        </p>
+
+        <img src="{{enfermedades.urlimg}}" alt="">
+
     </div>
 </div>
