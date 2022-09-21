@@ -11,13 +11,19 @@
 <!-- <div class="arriba"><img src="../assets/arriba.svg" alt=""></div> -->
 <div class="contenedor">
   <div class="banner">
+    <div class="cont_3">
+      <button class="scrolltop" onclick="backTop()">
+        <img src="../assets/wat.svg" alt="">
+      </button>
+    </div>
+
 
     <div class="capa2">
       <header class="contenido-header" id="inicio">
         <div class="barra" id="fecha">
           <!-- <p>Sabado <span>14</span> de setiembre del <span>2022</span></p> -->
           <p>{{fecha|date}} - {{fecha|date:'shortTime'}}</p>
-<!--           <script>
+          <!--           <script>
             const fecha=document.getElementById("fecha");
             const tiempoTranscurrido = Date.now();
             const hoy = new Date(tiempoTranscurrido);
@@ -48,11 +54,11 @@
           <a class="telefono" h href="tel:+51 975 347 030" target="_blank">
             <img src="../../assets/Telefono 2.svg" alt="">
           </a>
-      </div>
+        </div>
         <div class="cont">
-            <a class="whatsap" href="https://api.whatsapp.com/send?phone=975347030" target="_blank">
-              <img src="../../assets/Whatsapp 1.svg" alt="">
-            </a>
+          <a class="whatsap" href="https://api.whatsapp.com/send?phone=975347030" target="_blank">
+            <img src="../../assets/Whatsapp 1.svg" alt="">
+          </a>
         </div>
 
         <router-outlet></router-outlet>
@@ -66,7 +72,10 @@
       <section class="sec3">
         <app-footer></app-footer>
       </section>
+    </div>
+  </div>
 </div>
+
 <!-- <div class="abajo"><img src="../assets/abajo.svg" alt=""></div>-->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->

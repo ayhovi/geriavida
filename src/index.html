@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>GERIAVIDA</title>
@@ -20,7 +21,8 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Sorts+Mill+Goudy:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Sorts+Mill+Goudy:ital@0;1&display=swap"
+    rel="stylesheet">
 
 
   <!-- Latest compiled and minified CSS -->
@@ -34,31 +36,50 @@
 
 
 </head>
+
 <body class="mat-typography">
+
   <app-root></app-root>
   <script type="text/javascript">
     const fulImgBox = document.getElementById("fulImgBox"),
-    fulImg = document.getElementById("fulImg");
+      fulImg = document.getElementById("fulImg");
 
-    function openFulImg(reference){
-        fulImgBox.style.display = "flex";
-        fulImg.src = reference
+    function openFulImg(reference) {
+      fulImgBox.style.display = "flex";
+      fulImg.src = reference
     }
-    function closeImg(){
-        fulImgBox.style.display = "none";
+    function closeImg() {
+      fulImgBox.style.display = "none";
     }
   </script>
   <script type="text/javascript">
-    window.addEventListener("scroll", function(){
+    window.addEventListener("scroll", function () {
       var header = document.querySelector("header");
-      header.classList.toggle("abajo",window.scrollY>0);
+      header.classList.toggle("abajo", window.scrollY > 0);
     })
   </script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    window.addEventListener('scroll',function(){
+      let scroll=document.querySelector('.scrolltop')
+          scroll.classList.toggle('active', window.scrollY > 450)
+    })
+      function backTop() {
+        window.scrollTo({
+  top: 100,
+  left: 100,
+  behavior: 'smooth'
+});
+      }
+
+  </script>
+
 
 
 </body>
+
 </html>
