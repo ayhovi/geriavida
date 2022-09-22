@@ -38,6 +38,10 @@
   text-align: center;
   text-transform: uppercase;
 }
+.letra2:hover{
+  background-color:#A71E1C ;
+}
+
 .cont{
   background-color: #fcdca0 ;
 }

@@ -73,7 +73,9 @@ color: #123B40;
 .subir img{
   width: 60px;
 }
-
+.icono{
+  display: none;
+}
 
 @media (max-width: 920px) {
   h1{

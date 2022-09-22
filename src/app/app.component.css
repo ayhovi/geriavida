@@ -142,7 +142,7 @@ div .sec1{
 }
 div section.capa{
   content: "";
-  min-height: 60vh;
+  min-height: 50vh;
   border-radius: 0 0 3rem 3rem;
   position: relative;
   top: 0;
@@ -152,7 +152,7 @@ div section.capa{
   z-index: 0;
 }
 section.sec2{
-  margin: 3rem 0;
+  margin: 2rem 0;
   padding: 40px;
   box-sizing: border-box;
   height: auto;
@@ -279,7 +279,7 @@ nav ul li a.active{
     /*right: 30px;
     bottom: 30px;*/
     top: 89%;
-    left: 91.5%;
+    left: 87%;
     right: 0;
     bottom: 0;
     box-shadow: 0 1px 6px 2px rgba(0, 0, 0, .1),0 2px, 4px, -1px rgba(0, 0, 0, .06);

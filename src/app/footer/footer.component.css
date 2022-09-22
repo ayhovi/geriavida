@@ -4,6 +4,10 @@
   padding: 0 7rem;
   margin-bottom: 0px;
 }
+.footer{
+  display: block !important;
+}
+
 
 .centarimagen {
   align-items: center;
@@ -39,6 +43,9 @@
 .iconosF{
   text-align: center;
   padding: 10px;
+}
+.blog{
+  display: none;
 }
 
 @media(min-width: 1000px) {
