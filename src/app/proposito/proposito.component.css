@@ -50,6 +50,10 @@ color: #123B40;
   margin: 20px 0px;
 
 }
+.img img{
+  height: 200px;
+  width: 200px;
+}
 .cont_3{
   position: fixed;
   top: 86%;
