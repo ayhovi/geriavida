@@ -1,138 +1,108 @@
 * {
-    font-family: "Sorts Mill Goudy", serif;
-}
-.contenedor_principal{
-    margin:0;
-    padding: 0;
+  font-family: "Sorts Mill Goudy", serif;
 }
 h1 {
-    font-family: "Colonna MT", sans-serif;
-    font-size: calc(4em + 2vw);
-    line-height: 100%;
-    text-align: center;
-    color: #808080;
-    margin:0 auto;
+  font-family: "Colonna MT", sans-serif;
+  font-size: calc(4em + 2vw);
+  line-height: 100%;
+  text-align: center;
+  color: #808080;
+  margin:0 auto;
 }
 h2 {
-    font-family: "Sorts Mill Goudy", serif;
-    font-size: calc(2em + 1vw);
-    line-height: 50px;
-    font-weight: 600;
-    color: #000000;
-    margin:0 auto;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: calc(2em + 1vw);
+  line-height: 50px;
+  font-weight: 600;
+  color: #000000;
+  margin:0 auto;
 }
 h3 {
-    font-family: "Sorts Mill Goudy", serif;
-    font-size: calc(1.2em + 1vw);
-    line-height: 40px;
-    font-weight: 600;
-    color: #A71E1C;
-    margin:0 auto;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: calc(1.2em + 1vw);
+  line-height: 40px;
+  font-weight: 600;
+  color: #A71E1C;
+  margin:0 auto;
 }
 h4 {
-    font-family: "Sorts Mill Goudy", serif;
-    font-size: calc(1.4em + 1vw);
-    line-height: 50px;
-    font-weight: 800;
-    color: #002035;
-    margin:0 auto;
+  font-family: "Sorts Mill Goudy", serif;
+  font-size: calc(1.4em + 1vw);
+  line-height: 50px;
+  font-weight: 800;
+  color: #002035;
+  margin:0 auto;
 }
 p {
-    font-family: 'Goudy Old Style';
-    font-style: normal;
-    font-weight: 400;
-    font-size: calc(0.95em + 1vw);
-    line-height: 120%;
-    text-align: justify;
-    color: #002035;
+  font-family: 'Goudy Old Style';
+  font-style: normal;
+  font-weight: 400;
+  font-size: calc(0.95em + 1vw);
+  line-height: 120%;
+  text-align: justify;
+  color: #002035;
 }
-.negrita{
-    font-weight: bold;
+b {
+  font-weight: bold;
+  font-style: italic;
 }
-.lista_1{
-    list-style: disc;
-    padding-left: 20px;
+strong{
+  font-weight: 900;
 }
-.lista_2{
-    list-style: circle;
-    padding-left: 20px;
-    padding-right: 30px;
+li {
+  font-size: calc(0.95em + 1vw);
+  line-height: 120%;
+  text-align: justify;
+  color: #002035;
+  margin-left: 50px;
 }
-.lista_3{
-    list-style: disc;
-    padding-left: 20px;
-    padding-right: 30px;
+span {
+  font-style: italic;
+  color: #A71E1C;
+  font-weight: bold;
 }
-.lista_1 li::marker{
-    color: #A71E1C;
+img {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  border: 4px solid #A68053;
+  border-radius: 25px;
+  width: 90%;
+  margin: 10px auto;
 }
-li{
-    font-size: calc(0.95em + 1vw);
-    line-height: 120%;
-    text-align: justify;
-    color: #002035;
+i {
+  font-style: italic;
 }
-.viñeta{
-    margin-left: 2vw;
+u{
+  text-decoration: underline;
 }
-.centrar_imagen{
-    display: block;
-    text-align: center;
-}
-.centrar_imagen img{
-    border: 4px solid #A68053;
-    border-radius: 25px;
-    width: 90%;
-    margin: 2vw;
-}
-.dos_imagenes{
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-.dos_imagenes img{
-    height: auto;
-    width: 90%;
-    border: 4px solid #A68053;
-    border-radius: 25px;
-    margin: 2vw;
-}
-.dividir_3{
-    display: flex;
-    justify-content: space-around;
-}
-.divisiones{
-    display: grid;
+h6{
+  text-decoration: overline;
 }
 @media (max-width: 945px) {
-    .dos_imagenes{
-        display: block;
-    }
-    .dividir_3{
-        display: block;
-        margin-left: 2vw;
-    }
-    .lista_2{
-        margin:0;
-    }
+  img{
+      display: block;
+  }
+
 }
-@media (max-width: 630px) {
-    h1 {
-        line-height: 80%;
-    }
-    h2 {
-        font-size: calc(1.5em + 1vw);
-        line-height: 120%;
-    }
-    h3 {
-        font-size: calc(1em + 1vw);
-        line-height: 120%;
-    }
-    h4 {
-        font-size: calc(1.2em + 1vw);
-        line-height: 120%;
-    }
-    p {
-        line-height: 120%;
-    }
+@media (max-width: 630px){
+  h1 {
+      line-height: 80%;
+      font-size: 35px;
+  }
+  h2 {
+      font-size: calc(1.5em + 1vw);
+      line-height: 120%;
+  }
+  h3 {
+      font-size: calc(1em + 1vw);
+      line-height: 120%;
+  }
+  h4 {
+      font-size: calc(1.2em + 1vw);
+      line-height: 120%;
+  }
+  p {
+      line-height: 120%;
+  }
 }
