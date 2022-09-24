@@ -193,6 +193,7 @@ p{
 }
 /* codigo del modal */
 .modal-title{
+  padding:10px, 0;
   font: 400 1.5em/2.3rem    'Sorts Mill Goudy', serif;
   color:white;
 }
@@ -310,6 +311,13 @@ p{
   .flecha img{
     width: 250px;
   }
+  .fade{
+    padding-top: 25px;
+  }
+  .modal-body{
+    padding-top: 25px;
+  }
   .modal-body img{
+    
   }
 }
