@@ -140,7 +140,7 @@ ul{
 li{
   font: 400 1em/2.5rem  'Goudy Old Style', serif;
   color: #123B40;
-  margin: 0% 0% 0% 1%;
+  margin: 0% 0% 0% 0%;
   width: 100%;
 }
 .subir img{
@@ -201,233 +201,20 @@ li{
       width: 280px;
     }
     li{
-      font-size: 20px;
+      font-size: 18px;
       width: 100%;
       color: #123B40;
     }
     ul{
       width:100%;
+      margin: 1% 0% 0% 0%;
     }
     .imagen img{
       width:300px
     }
+    p{
+      font-family: 'Goudy Old Style'!important;
+      font-size: 18px;
+      line-height: 22px;
+    }
 }
-/* @media (width >= 2840px) and (width <= 3840px)
-{
-  h1{
-      font: 400 8vw/14rem 'Colonna MT', sans-serif;
-      color: red;
-  }
-  h2{
-      font: 400 clamp(0.5rem, 5vw, 5.8rem)/8rem  'Goudy Old Style', serif!important;
-      margin: 3% 0% 0% 3%;}
-  p{
-      font: 400 clamp(0.5rem, 2vw, 4rem)/4rem  'Goudy Old Style', serif!important;
-  }
-  .caja_video video{
-      width:20vw;
-      border: 10px solid #A68053;
-      border-radius: 50px;
-  }
-  .imagen img{
-      width:41vw;
-      border: 10px solid #A68053;
-      border-radius: 50px;
-  }
-  .caja_viñetas{
-      font: 400 clamp(0.5rem, 2vw, 4rem)/5.6rem  'Goudy Old Style', serif!important;
-      margin: 3% 0% 3% 3%;
-  }
-  .imagenes img{
-      width:41vw;
-      border: 10px solid #A68053;
-      border-radius: 50px;
-  }
-}
-@media (width >= 1840px) and (width <= 2839px)
-{
-  h1{
-      font: 400 7vw/7vw 'Colonna MT', sans-serif;
-  }
-  h2{
-      font: 400 2vw/6rem  'Goudy Old Style', serif!important;
-      margin: 2% 0% 1% 3%;
-  }
-  p{
-      font: 400 clamp(0.3rem, 2vw, 3rem)/3rem  'Goudy Old Style', serif!important;
-  }
-  .caja_video video{
-      width: 26vw;
-      border: 6px solid #A68053;
-  }
-  .imagen img{
-      width:39.6vw;
-      border: 6px solid #A68053;
-  }
-  .caja_viñetas{
-      font: 400 clamp(0.3rem, 2vw, 3rem)/3rem  'Goudy Old Style', serif!important;
-      margin: 2% 0% 3% 3%;
-  }
-  .imagenes img{
-      width:39.6vw;
-      border: 6px solid #A68053;
-  }
-}
-@media (width >= 1280px) and (width <= 1839px)
-{
-  h1{
-      font: 400 7vw/7vw 'Colonna MT', sans-serif;
-  }
-  h2{
-      font: 400 2vw/6rem  'Goudy Old Style', serif!important;
-      margin: 2% 0% 1% 3%;
-  }
-  p{
-      font: 400 clamp(0.3rem, 1.5vw, 3rem)/2rem  'Goudy Old Style', serif!important;
-  }
-  .caja_video video{
-      width: 22vw;
-      border: 4px solid #A68053;
-  }
-  .imagen img{
-      width:37.05vw;
-      border: 4px solid #A68053;
-  }
-  .caja_viñetas{
-      font: 400 clamp(0.3rem, 1.5vw, 3rem)/2rem  'Goudy Old Style', serif!important;
-      margin: 2% 0% 3% 3%;
-  }
-  .imagenes img{
-      width: 37.05vw;
-      border: 4px solid #A68053;
-  }
-}
-@media (width >= 1024px) and (width <= 1279px)
-{
-  h1{
-      font: 400 5vw/5vw 'Colonna MT', sans-serif;
-      color:rgb(0, 26, 255);
-  }
-  h2{
-      font: 400 2vw/6rem  'Goudy Old Style', serif!important;
-      margin: 0% 0% 0% 3%;
-  }
-  p{
-      font: 400 clamp(0.3rem, 1.5vw, 2rem)/1.5rem  'Goudy Old Style', serif!important;
-  }
-  .caja_video{
-      content:"";
-      top: 0;
-      right: 0;
-  }
-  .caja_video video{
-      width: 23vw;
-      border: 3px solid #A68053;
-  }
-  .imagen img{
-      width:32vw;
-      border: 3px solid #A68053;
-  }
-  .caja_viñetas{
-      font: 400 clamp(0.3rem, 1.5vw, 3rem)/2rem  'Goudy Old Style', serif!important;
-      margin: 0% 0% 3% 3%;
-  }
-  .imagenes img{
-      width: 32vw;
-      border: 3px solid #A68053;
-  }
-}
-@media (width >= 600px) and (width <= 1023px)
-{
-  *{
-      margin: 0;
-      padding: 0;
-  }
-  h1{
-      font: 400 6vw/5vw 'Colonna MT', sans-serif;
-      margin: 0% 0% 2% 0%;
-  }
-  h2{
-      font: 400 3vw/6rem  'Goudy Old Style', serif!important;
-      margin: 0 auto;
-      padding: 0 auto;
-  }
-  .contenedor_principal{
-      width: 100%;
-  }
-  .contenedor_2{
-      width: 100%;
-      display: block;
-  }
-  .caja{
-      padding: 0 auto;
-      margin: 0 auto;
-      display: block;
-  }
-  .caja_video{
-      display:flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .caja_video video{
-      width:200px;
-      border: 2px solid #A68053;
-      border-radius: 15px;
-  }
-  p{
-      font: 400 clamp(0.3rem, 1.8vw, 3rem)/1rem  'Goudy Old Style', serif!important;
-      margin: 0% 0% 1% 0%;
-  }
-  .imagen{
-      display:block;
-      align-items: center;
-      margin: 0 auto;
-      margin: 1.5% 3% 1.5% 3%;
-  }
-  .imagen img{
-      content: "";
-      top: 0;
-      left: 0;
-      width:45vw;
-      border: 2px solid #A68053;
-      border-radius: 15px;
-  }
-  .contenedor_3{
-      width: 100%;
-      display: flex;
-  }
-  ul{
-      list-style-image:url(../../assets/Vector.svg);
-      text-indent: 2%;
-      color: #123B40;
-      margin: 0% 0% 0% 8%;
-      width: 100%;
-  }
-  .contenedor_4{
-      width: 100%;
-      display: flex !important;
-  }
-  .caja_viñetas{
-      display:flex;
-      font: 400 1.4em/2.5rem  'Goudy Old Style', serif!important;
-      color: #123B40;
-      margin: 0% 0% 0% 3%;
-      width: 100%;
-  }
-  .imagenes{
-      text-align: right;
-      content: "";
-      top: 0;
-      right: 0;
-      display:left;
-      margin: 0 auto;
-      margin: 3% 3% 3% 3%;
-  }
-  .imagenes img{
-      width:40rem;
-      border: 5px solid #A68053;
-      border-radius: 25px;
-      margin-bottom: 2rem;
-  }
-}
- */

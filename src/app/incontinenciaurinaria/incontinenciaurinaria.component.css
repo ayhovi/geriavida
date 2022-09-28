@@ -1,0 +1,109 @@
+* {
+    font-family: "Sorts Mill Goudy", serif;
+  }
+  h1 {
+    font-family: "Colonna MT", sans-serif;
+    font-size: calc(4em + 2vw);
+    line-height: 100%;
+    text-align: center;
+    color: #808080;
+    margin:0 auto;
+  }
+  h2 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: calc(2em + 1vw);
+    line-height: 50px;
+    font-weight: 600;
+    color: #000000;
+    margin:0 auto;
+  }
+  h3 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: calc(1.2em + 1vw);
+    line-height: 40px;
+    font-weight: 600;
+    color: #A71E1C;
+    margin:0 auto;
+  }
+  h4 {
+    font-family: "Sorts Mill Goudy", serif;
+    font-size: calc(1.4em + 1vw);
+    line-height: 50px;
+    font-weight: 800;
+    color: #002035;
+    margin:0 auto;
+  }
+  p {
+    font-family: 'Goudy Old Style';
+    font-style: normal;
+    font-weight: 400;
+    font-size: calc(0.95em + 1vw);
+    line-height: 120%;
+    text-align: justify;
+    color: #002035;
+  }
+  b {
+    font-weight: bold;
+    font-style: italic;
+  }
+  strong{
+    font-weight: 900;
+  }
+  li {
+    font-size: calc(0.95em + 1vw);
+    line-height: 120%;
+    text-align: justify;
+    color: #002035;
+    margin-left: 50px;
+  }
+  span {
+    font-style: italic;
+    color: #A71E1C;
+    font-weight: bold;
+  }
+  img {
+    background-color: red;
+    display: flex;
+    align-items: center;
+    border: 4px solid #A68053;
+    border-radius: 25px;
+    width: 90%;
+    margin: 10px auto;
+  }
+  i {
+    font-style: italic;
+  }
+  u{
+    text-decoration: underline;
+  }
+  h6{
+    text-decoration: overline;
+  }
+  @media (max-width: 945px) {
+    img{
+        display: block;
+    }
+  
+  }
+  @media (max-width: 630px){
+    h1 {
+        line-height: 80%;
+        font-size: 35px;
+    }
+    h2 {
+        font-size: calc(1.5em + 1vw);
+        line-height: 120%;
+    }
+    h3 {
+        font-size: calc(1em + 1vw);
+        line-height: 120%;
+    }
+    h4 {
+        font-size: calc(1.2em + 1vw);
+        line-height: 120%;
+    }
+    p {
+        line-height: 120%;
+    }
+  }
+  

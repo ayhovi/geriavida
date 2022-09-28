@@ -48,13 +48,6 @@ p{
 .contenedor{
   margin: 1rem 5rem;
 }
-/* .banner1{
-  min-height: 70vh;
-  border-radius: 3rem;
-  background-image: url(../assets/Fondo.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
 
 .arriba{
   text-align: center;
@@ -227,7 +220,7 @@ nav ul li a.active{
   margin: auto;
   border-radius: 50%;
   animation: pulse-anim 1.5s linear infinite;
-  z-index: 1;
+  z-index: 100 !important;
   animation-name: pulse-anim;
 }
 .whatsap img{
@@ -246,7 +239,7 @@ nav ul li a.active{
   margin: auto;
   border-radius: 50%;
   animation: pulse-anim 1.5s linear infinite;
-  z-index: 1;
+  z-index: 100!important;
 }
 .telefono img{
   width: 60px;
@@ -288,7 +281,6 @@ nav ul li a.active{
     opacity: 0;
     visibility: hidden;
     transition: all .4s ease;
-    animation: pulse-anim 1.5s linear infinite;
   }
 
   .contenedor{

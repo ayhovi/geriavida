@@ -19,8 +19,12 @@ import { ArtrosisComponent } from './artrosis/artrosis.component';
 import { ArtritisComponent } from './artritis/artritis.component';
 import { OsteoporosisComponent } from './osteoporosis/osteoporosis.component';
 import { EnfermedadesComponent } from './enfermedades/enfermedades.component';
+import { EnfermedadcardiacaComponent} from './enfermedadcardiaca/enfermedadcardiaca.component';
+import { IncontinenciaurinariaComponent} from './incontinenciaurinaria/incontinenciaurinaria.component';
 
 const routes: Routes = [
+  {path: 'incontinenciaurinaria', component:IncontinenciaurinariaComponent},
+  {path: 'enfermedadcardiaca', component:EnfermedadcardiacaComponent},
   {path: 'proposito', component:PropositoComponent},
   {path: 'servicios', component:ServiciosComponent},
   {path: 'galeria', component:GaleriaComponent},

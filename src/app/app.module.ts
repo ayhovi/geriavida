@@ -33,6 +33,8 @@ import { DiabetesmellitusComponent } from './diabetesmellitus/diabetesmellitus.c
 import { DemenciasenilComponent } from './demenciasenil/demenciasenil.component';
 import { AlzheimerComponent } from './alzheimer/alzheimer.component';
 import {MatDialogModule} from '@angular/material/dialog';
+import { EnfermedadcardiacaComponent } from './enfermedadcardiaca/enfermedadcardiaca.component';
+import { IncontinenciaurinariaComponent } from './incontinenciaurinaria/incontinenciaurinaria.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -57,6 +59,8 @@ import {MatDialogModule} from '@angular/material/dialog';
     DiabetesmellitusComponent,
     DemenciasenilComponent,
     AlzheimerComponent,
+    EnfermedadcardiacaComponent,
+    IncontinenciaurinariaComponent,
   ],
   imports: [
     BrowserModule,
